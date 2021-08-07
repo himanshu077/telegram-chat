@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+.avatar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-header {
+    padding: 15px 35px;
+    border-bottom: 1px solid gainsboro;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-name {
+    color: #2e76bf;
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user-msg {
+    color: #080808 !important;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.action-div button {
+    margin-left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.action-div img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+img.sticker-img {
+    width: 450px;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+}
+.chat-div {
+    height: 100vh;
+    overflow: hidden;
+}
+.scroll-div {
+    height: calc(100vh - 127px - 71px);
+    overflow: auto;
+}
+.user-list {
+    margin-bottom: 20px;
+}
+
+.message-div {
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    border-top: 1px solid gainsboro;
+}
+button.msg-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+input.message-input {
+    flex: 1;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+    padding-right: 10px;
+}
+.edited-msg {
+    margin-left: 62px;
+}
+
+.action-div, .time-div {
+    margin-left: auto;
+    display: flex;
+}
+
+span.checkmark img {
+    width: auto;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.user-wrap {
+    padding: 15px 35px;
+}
+
+@media screen and (max-width: 500px) {
+    .user-header {
+        padding: 15px 20px;
+    }
+    .avatar-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .action-div button {
+        margin-left: 15px;
+    }
+    .action-div img {
+        width: 25px;
+        height: 25px;
+    }
+    .flex.user-header h1 {
+        font-size: 18px;
+    }
+    .flex.user-header p {
+        font-size: 15px;
+    }
+    .date-div p {
+        font-size: 16px;
+    }
+    .user-wrap {
+        padding: 15px 20px;
+    }
+    .user-name {
+        font-size: 18px;
+    }
+    .user-msg {
+        font-size: 15px;
+    }
+    .edited-msg {
+        margin-left: 50px;
+    }
+    .edited-p span {
+        display: block;
+        text-align: right;
+    }
+    .time-div p {
+        white-space: nowrap;
+    }
+    .message-div {
+        padding: 15px 20px;
+    }
+    button.msg-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .scroll-div {
+        height: calc(100vh - 125px - 61px);
+    }
 }
