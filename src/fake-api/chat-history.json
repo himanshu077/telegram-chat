@@ -1,0 +1,229 @@
+[
+  {
+    "message_id": "001",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Hey Emma",
+    "date": "2021-08-01T04:09:11.409Z",
+    "message_read": true,
+    "message_type": "text"
+  },
+  {
+    "message_id": "002",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": true,
+    "text": "Checkout this sticker 😂",
+    "date": "2021-08-01T04:11:12.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "003",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": true,
+    "date": "2021-08-01T04:13:12.409Z",
+    "message_read": false,
+    "message_type": "sticker"
+  },
+  {
+    "message_id": "004",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Love it!!!",
+    "date": "2021-08-02T06:12:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "005",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Where did you download it?",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "006",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Downloaded from the play store.",
+    "date": "2021-08-02T04:11:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "007",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Okay, let me download it and give it a try.",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "008",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Whats up?",
+    "date": "2021-08-03T09:49:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "009",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "date": "2021-08-03T04:09:11.409Z",
+    "message_read": true,
+    "message_type": "sticker"
+  },
+  {
+    "message_id": "010",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Love it!!!",
+    "date": "2021-08-02T06:12:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "011",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Where did you download it?",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "012",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Downloaded from the play store.",
+    "date": "2021-08-02T04:11:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "013",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Okay, let me download it and give it a try.",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "014",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Whats up?",
+    "date": "2021-08-03T09:49:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "015",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "date": "2021-08-03T04:09:11.409Z",
+    "message_read": true,
+    "message_type": "sticker"
+  },
+  {
+    "message_id": "016",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Love it!!!",
+    "date": "2021-08-02T06:12:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "017",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Where did you download it?",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "018",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Downloaded from the play store.",
+    "date": "2021-08-02T04:11:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "019",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "text": "Okay, let me download it and give it a try.",
+    "date": "2021-08-02T04:09:11.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "020",
+    "userId": "1",
+    "avatar": "https://www.kindpng.com/picc/m/421-4212275_transparent-default-avatar-png-avatar-img-png-download.png",
+    "name": "Yury Smykalov",
+    "edited": false,
+    "text": "Whats up?",
+    "date": "2021-08-03T09:49:20.409Z",
+    "message_read": false,
+    "message_type": "text"
+  },
+  {
+    "message_id": "021",
+    "userId": "2",
+    "avatar": "https://worldywcacouncil.org/wp-content/uploads/2014/10/speaker-2-v2.jpg",
+    "name": "Emma Anderson",
+    "edited": false,
+    "date": "2021-08-03T04:09:11.409Z",
+    "message_read": true,
+    "message_type": "sticker"
+  }
+]
