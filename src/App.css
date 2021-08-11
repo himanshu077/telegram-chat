@@ -3,7 +3,8 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 12px;
+  margin-right: 16px;
+  margin-top: 4px;
 }
 
 .user-header {
@@ -38,6 +39,28 @@ img.sticker-img {
   max-height: 450px;
   object-fit: cover;
 }
+
+img.bottom-sheet-sticker-img {
+  width: 200px;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* bottom-sheet */
+.bottom-sheet-stickers-container {
+  overflow-y: auto;
+  flex-wrap: wrap;
+  height: 250px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.bottom-sheet-sticker {
+  flex: 0 0 calc(100% / 10);
+  padding: 10px;
+}
+
 .chat-div {
   height: 100vh;
   overflow: hidden;
@@ -49,7 +72,7 @@ img.sticker-img {
   overflow: auto;
 }
 .user-list {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .message-div {
@@ -64,13 +87,15 @@ button.msg-icon img {
   object-fit: contain;
   margin-right: 15px;
 }
-input.message-input {
+.message-input {
   flex: 1;
   outline: none;
   font-size: 17px;
   font-weight: 400;
   color: gray;
   padding-right: 10px;
+  resize: none;
+  overflow-y: hidden;
 }
 .edited-msg {
   margin-left: 62px;
@@ -94,22 +119,33 @@ span.checkmark img {
 }
 
 .user-wrap {
-  padding: 15px 35px;
+  padding: 8px 35px;
 }
 
 .infinite-scroll {
   display: flex;
   flex-direction: column-reverse;
 }
-
+@media screen and (max-width: 992px) {
+  .bottom-sheet-sticker {
+    flex: 0 0 calc(100% / 5);
+    padding: 10px;
+  }
+}
 @media screen and (max-width: 500px) {
+  .bottom-sheet-sticker {
+    flex: 0 0 calc(100% / 3);
+    padding: 10px;
+  }
+
   .user-header {
     padding: 15px 20px;
   }
   .avatar-img {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 16px;
+    margin-top: 4px;
   }
   .action-div button {
     margin-left: 15px;
@@ -128,7 +164,7 @@ span.checkmark img {
     font-size: 16px;
   }
   .user-wrap {
-    padding: 15px 20px;
+    padding: 8px 20px;
   }
   .user-name {
     font-size: 18px;
