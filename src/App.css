@@ -171,6 +171,7 @@ span.checkmark img {
   }
   .user-msg {
     font-size: 15px;
+    white-space: pre-line;
   }
   .edited-msg {
     margin-left: 50px;

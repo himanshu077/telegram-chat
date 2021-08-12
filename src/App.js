@@ -6,10 +6,8 @@ import { v4 as uuidv4 } from 'uuid';
 import phone from './images/phone.PNG';
 import more from './images/more.PNG';
 import search from './images/search.PNG';
-import mic from './images/mic.PNG';
 import sendIcon from './images/send.png';
 import stickerIcon from './images/sticker_icon.png';
-// import stickerIcon from './images/sticker-icon.PNG';
 import clip from './images/clip.PNG';
 
 // stickers imports
@@ -104,10 +102,8 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const onSendTextMessage = (msg) => {
-    console.log(msg, 'msg');
-    if (message || msg) {
-      console.log(message);
+  const onSendTextMessage = (_message) => {
+    if (message || _message) {
       setChatHistory((prevHistory) => {
         const existingHistory = [...prevHistory];
         existingHistory.unshift({
@@ -120,7 +116,7 @@ function App() {
           date: new Date().toISOString(),
           message_read: false,
           message_type: 'text',
-          text: message || msg,
+          text: message || _message,
         });
         return existingHistory;
       });
@@ -197,7 +193,6 @@ function App() {
             dataLength={chatHistory.length}
             next={() => {
               if (chatHistory.length < CHAT_HISTORY_LENGTH) {
-                console.log('Call fake api');
                 setCurrentPage((prevPage) => prevPage + 1);
               }
             }}
@@ -271,6 +266,7 @@ function App() {
           </button>
         </div>
       </div>
+      {/* Swipeable bottom sheet */}
       <SwipeableBottomSheet
         overlay
         overflowHeight={0}
