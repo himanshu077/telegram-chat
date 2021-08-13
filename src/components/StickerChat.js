@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import TSGViewer from './TGSViewer';
 
 const StickerChat = ({ chat, sticker }) => {
   return (
@@ -10,9 +11,7 @@ const StickerChat = ({ chat, sticker }) => {
           <h1 className='text-blue-500 text-xl font-medium user-name'>
             {chat.name}
           </h1>
-          <p className='text-black-600 font-normal user-msg object-contain'>
-            <img src={sticker} className='sticker-img' alt='sticker' />
-          </p>
+          <TSGViewer sticker={sticker} style={{ width: 200, height: 200 }} />
         </div>
       </div>
       <div className='time-div flex'>

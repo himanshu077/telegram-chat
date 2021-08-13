@@ -10,14 +10,40 @@ import sendIcon from './images/send.png';
 import stickerIcon from './images/sticker_icon.png';
 import clip from './images/clip.PNG';
 
-// stickers imports
-import sticker1 from './images/stickers/sticker_1.png';
-import sticker2 from './images/stickers/sticker_2.png';
-import sticker3 from './images/stickers/sticker_3.png';
-import sticker4 from './images/stickers/sticker_4.png';
-import sticker5 from './images/stickers/sticker_5.jpg';
-import sticker6 from './images/stickers/sticker_6.jpg';
-import sticker7 from './images/stickers/sticker_7.png';
+// import all tgs stickers
+import {
+  sticker0,
+  sticker1,
+  sticker2,
+  sticker3,
+  sticker4,
+  sticker5,
+  sticker6,
+  sticker7,
+  sticker8,
+  sticker9,
+  sticker10,
+  sticker11,
+  sticker12,
+  sticker13,
+  sticker14,
+  sticker15,
+  sticker16,
+  sticker17,
+  sticker18,
+  sticker19,
+  sticker20,
+  sticker21,
+  sticker22,
+  sticker23,
+  sticker24,
+  sticker25,
+  sticker26,
+  sticker27,
+  sticker28,
+  sticker29,
+  sticker30,
+} from './constants/sticker-imports';
 
 import { CHAT_HISTORY_LENGTH, fakeApiCall } from './fake-api/fakeApi';
 
@@ -29,6 +55,7 @@ import StickerChat from './components/StickerChat';
 
 import Spinner from './components/Spinner';
 import './App.css';
+import TSGViewer from './components/TGSViewer';
 
 const PER_PAGE_LIMIT = 5;
 const MESSAGE_SENDER_ID = '2';
@@ -38,7 +65,8 @@ const bottomSheetContainerStyle = {
   boxShadow: 'rgb(0 0 0 / 35%) 0px 5px 15px',
 };
 
-const STICKERS = [
+const ANIMATED_STICKERS = [
+  sticker0,
   sticker1,
   sticker2,
   sticker3,
@@ -46,6 +74,29 @@ const STICKERS = [
   sticker5,
   sticker6,
   sticker7,
+  sticker8,
+  sticker9,
+  sticker10,
+  sticker11,
+  sticker12,
+  sticker13,
+  sticker14,
+  sticker15,
+  sticker16,
+  sticker17,
+  sticker18,
+  sticker19,
+  sticker20,
+  sticker21,
+  sticker22,
+  sticker23,
+  sticker24,
+  sticker25,
+  sticker26,
+  sticker27,
+  sticker28,
+  sticker29,
+  sticker30,
 ];
 
 function App() {
@@ -229,7 +280,14 @@ function App() {
                         <EditedChat chat={chat} />
                       )}
                       {chat.message_type === 'sticker' && (
-                        <StickerChat chat={chat} sticker={chat.sticker} />
+                        <StickerChat
+                          chat={chat}
+                          sticker={
+                            typeof chat.sticker === 'number'
+                              ? ANIMATED_STICKERS[chat.sticker]
+                              : chat.sticker
+                          }
+                        />
                       )}
                     </div>
                   </div>
@@ -285,17 +343,13 @@ function App() {
           </span>
         </div>
         <div className='p-8 flex bottom-sheet-stickers-container'>
-          {STICKERS.map((_sticker, index) => (
+          {ANIMATED_STICKERS.map((_sticker, index) => (
             <div
               key={`sticker_${index}`}
               className='bottom-sheet-sticker cursor-pointer'
               onClick={() => onSendStickerMessage(_sticker)}
             >
-              <img
-                src={_sticker}
-                className='bottom-sheet-sticker-img'
-                alt='sticker'
-              />
+              <TSGViewer sticker={_sticker} />
             </div>
           ))}
         </div>
