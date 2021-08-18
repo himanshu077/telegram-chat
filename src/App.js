@@ -57,7 +57,7 @@ import Spinner from './components/Spinner';
 import './App.css';
 import TSGViewer from './components/TGSViewer';
 
-const PER_PAGE_LIMIT = 5;
+const PER_PAGE_LIMIT = 10;
 const MESSAGE_SENDER_ID = '2';
 
 const bottomSheetContainerStyle = {
